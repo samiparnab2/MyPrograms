@@ -1,2 +1,2 @@
 # Programs
-Here are some small done by me
+Here are some small Programs done by me

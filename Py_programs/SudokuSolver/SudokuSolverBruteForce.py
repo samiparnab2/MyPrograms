@@ -1,6 +1,7 @@
 import os
 solved=0
 mat=[]
+
 def RowErr(val,i,j):
     global mat
     for k in range(0,9):

@@ -13,6 +13,7 @@ def copy_file(fin_path,fout_path):
         if data==b'':
             break
         fout.write(data)
+        # fout.flush()
     fin.close()
     fout.close()
 

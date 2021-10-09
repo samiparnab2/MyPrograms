@@ -13,7 +13,7 @@ def copy_file(fin_path,fout_path):
         if data==b'':
             break
         fout.write(data)
-        # fout.flush()
+        fout.flush()
     fin.close()
     fout.close()
 
@@ -36,3 +36,4 @@ if os.path.isdir(f_in_path):
     copy_folder(f_in_path,f_out_path)
 else:
     copy_file(f_in_path,f_out_path)
+
